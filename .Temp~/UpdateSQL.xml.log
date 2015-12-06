@@ -1,0 +1,30 @@
+[06 Dec 2015 20:12:23] DEBUG Executing SQL script
+[06 Dec 2015 20:12:23] INFO ================================================================================
+[06 Dec 2015 20:12:23] INFO onError= 'stop'
+[06 Dec 2015 20:12:23] INFO autoCommit= 'false'
+[06 Dec 2015 20:12:23] INFO username= 'admin'
+[06 Dec 2015 20:12:23] INFO outputPath= '/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/workspace/exercise8/.Temp~/UpdateSQL.xml'
+[06 Dec 2015 20:12:23] INFO outputLogPath= '/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/workspace/exercise8/.Temp~/UpdateSQL.xml.log'
+[06 Dec 2015 20:12:23] INFO encoding= ''
+[06 Dec 2015 20:12:23] INFO driverClass= 'org.apache.derby.jdbc.ClientDriver'
+[06 Dec 2015 20:12:23] INFO sqlScript= '/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/workspace/exercise8/.Temp~/UpdateSQL.sql'
+[06 Dec 2015 20:12:23] INFO eventSocketPort= '37426'
+[06 Dec 2015 20:12:23] INFO statementSeparator= ';'
+[06 Dec 2015 20:12:23] INFO derby.system.home= '/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/workspace/.metadata/.plugins/com.webratio.commons.db/derby'
+[06 Dec 2015 20:12:23] INFO password= 'admin'
+[06 Dec 2015 20:12:23] INFO url= 'jdbc:derby://localhost:3309/db;create=true'
+[06 Dec 2015 20:12:23] INFO ================================================================================
+[06 Dec 2015 20:12:23] INFO Connecting to the Database...
+[06 Dec 2015 20:12:24] INFO Database connection estabilished
+[06 Dec 2015 20:12:24] INFO transaction isolation: 2
+[06 Dec 2015 20:12:24] DEBUG ================================================================================
+[06 Dec 2015 20:12:24] DEBUG Executing SQL script file: /home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/workspace/exercise8/.Temp~/UpdateSQL.sql
+[06 Dec 2015 20:12:24] DEBUG Executing statement:  create table "APP"."AUTHOR" ( "AID"  integer  not null, "ADDRESS"  varchar(255), "EMAIL"  varchar(255), "ATTRIBUTE4"  varchar(255), "TELEPHONE_NUMBER"  varchar(255), primary key ("AID") )
+[06 Dec 2015 20:12:24] DEBUG Executing statement:    create table "APP"."MESSAGE" ( "OID"  integer  not null, "MESSAGE"  varchar(255), "TIMESTAMP"  timestamp, "AID"  integer, primary key ("OID") )
+[06 Dec 2015 20:12:24] DEBUG Executing statement:    alter table "APP"."USER"  add column  "AUTHOR_AID"  integer
+[06 Dec 2015 20:12:25] DEBUG Executing statement:  alter table "APP"."USER"   add constraint FK_USER_AUTHOR foreign key ("AUTHOR_AID") references "APP"."AUTHOR" ("AID")
+[06 Dec 2015 20:12:25] DEBUG Executing statement:    create view "APP"."MESSAGETOAUTHOR_VIEW" as select AL1."OID" as "S_OID", AL2."AID" as "T_AID" from  "APP"."MESSAGE" AL1 , "APP"."AUTHOR" AL2 where AL1."AID" = AL2."AID"
+[06 Dec 2015 20:12:25] DEBUG ================================================================================
+[06 Dec 2015 20:12:25] DEBUG SQL SCRIPT SUCCESSFULLY EXECUTED
+[06 Dec 2015 20:12:25] INFO Database connection closed
+[06 Dec 2015 20:12:25] DEBUG Total time: 2109 milliseconds

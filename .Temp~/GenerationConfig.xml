@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration>
+  <Properties>
+    <Property name="ajaxActivated">true</Property>
+    <Property name="applicationServer">Tomcat</Property>
+    <Property name="cloudDeploy">false</Property>
+    <Property name="commonsLibDir">/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.commons.libs_7.2.9.201508150414/lib</Property>
+    <Property name="dbConfigPath">/tmp/WRDBConfig7977325209641016380.xml</Property>
+    <Property name="defaultEncoding"></Property>
+    <Property name="deployCorePluginDir">/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/configuration/org.eclipse.osgi/bundles/49/1/.cp</Property>
+    <Property name="derbySystemHome">/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/workspace/.metadata/.plugins/com.webratio.commons.db/derby</Property>
+    <Property name="enterpriseProjectDir"></Property>
+    <Property name="eventSocketPort">48160</Property>
+    <Property name="excludedProjects" type="list"></Property>
+    <Property name="generationTime">201512062019</Property>
+    <Property name="helpersPluginDir">/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.generator.helpers_7.2.9.201508150414</Property>
+    <Property name="i18nBundleKeysFile" type="file"></Property>
+    <Property name="i18nExtraBundleFile" type="file"></Property>
+    <Property name="localDeploy">false</Property>
+    <Property name="lockDir">/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/workspace/exercise8/.Temp~</Property>
+    <Property name="normalizeDescriptors">false</Property>
+    <Property name="outputPath">/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/Tomcat/webapps/exercise8</Property>
+    <Property name="phases">All</Property>
+    <Property name="projectDir">/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/workspace/exercise8</Property>
+    <Property name="projectName">exercise8</Property>
+    <Property name="projectPath">/tmp/Project2743564804583269466.wr</Property>
+    <Property name="projectType">WEBPROJECT</Property>
+    <Property name="rootModuleName"></Property>
+    <Property name="uiPluginDir">/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.ide.ui_7.2.9.201508150414</Property>
+    <Property name="webappPluginDir">/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.generator.webapp_7.2.9.201508150414</Property>
+    <Property name="wrBuildId">201508150414</Property>
+    <Property name="wrGenerateOldValidationRules">false</Property>
+    <Property name="wrModelStatistics">pages=1|units=2</Property>
+    <Property name="wrVersion">7.2.9</Property>
+  </Properties>
+  <Plugins>
+    <Plugin id="com.webratio.commons.libs" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.commons.libs_7.2.9.201508150414"/>
+    <Plugin id="com.webratio.commons.transform" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.commons.transform_7.2.9.201508150414"/>
+    <Plugin id="com.webratio.debug" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.debug_7.2.9.201508150414"/>
+    <Plugin id="com.webratio.json" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.json_7.2.9.201508150414"/>
+    <Plugin id="com.webratio.lib.apache.commons.codec" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.lib.apache.commons.codec_7.2.9.201508150414"/>
+    <Plugin id="com.webratio.lib.apache.commons.collections" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.lib.apache.commons.collections_7.2.9.201508150414"/>
+    <Plugin id="com.webratio.lib.apache.commons.httpclient" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.lib.apache.commons.httpclient_7.2.9.201508150414"/>
+    <Plugin id="com.webratio.lib.apache.commons.lang" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.lib.apache.commons.lang_7.2.9.201508150414"/>
+    <Plugin id="com.webratio.lib.apache.commons.logging" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.lib.apache.commons.logging_7.2.9.201508150414"/>
+    <Plugin id="com.webratio.lib.dom4j" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.lib.dom4j_7.2.9.201508150414"/>
+    <Plugin id="com.webratio.lib.javassist" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.lib.javassist_7.2.9.201508150414"/>
+    <Plugin id="com.webratio.rtx.extras" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.rtx.extras_7.2.9.201508150414"/>
+    <Plugin id="com.webratio.rtx" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.rtx_7.2.9.201508150414"/>
+    <Plugin id="com.webratio.struts13" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.struts13_7.2.9.201508150414"/>
+    <Plugin id="com.webratio.units.content" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.units.content_7.2.9.201508150414" type="components"/>
+    <Plugin id="com.webratio.units.controlflow" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.units.controlflow_7.2.9.201508150414" type="components"/>
+    <Plugin id="com.webratio.units.module" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.units.module_7.2.9.201508150414" type="components"/>
+    <Plugin id="com.webratio.units.operation" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.units.operation_7.2.9.201508150414" type="components"/>
+    <Plugin id="com.webratio.units.session" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.units.session_7.2.9.201508150414" type="components"/>
+    <Plugin id="com.webratio.units.utility" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.units.utility_7.2.9.201508150414" type="components"/>
+    <Plugin id="com.webratio.units.validation" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.units.validation_7.2.9.201508150414" type="components"/>
+    <Plugin id="com.webratio.units.ws" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.units.ws_7.2.9.201508150414" type="components"/>
+    <Plugin id="com.webratio.ws" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.ws_7.2.9.201508150414"/>
+    <Plugin id="com.webratio.xsd" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/com.webratio.xsd_7.2.9.201508150414"/>
+  </Plugins>
+  <Styles>
+    <Style name="Excel" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/Excel_7.2.9.201508150414"/>
+    <Style name="Multiflex" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/Multiflex_7.2.9.201508150414"/>
+    <Style name="Reports" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/Reports_7.2.9.201508150414"/>
+    <Style name="WebRatio" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/WebRatio_7.2.9.201508150414"/>
+    <Style name="WRDefault" path="/home/guruprasad/WebRatio_Platform_University_Student_Edition_7.2.9.x64bit.Linux/WebRatio/plugins/WRDefault_7.2.9.201508150414"/>
+  </Styles>
+  <FileEncodings/>
+</Configuration>
